@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    color: #263445;
+    padding: 30px;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+}
+
+h1 {
+    color: #315b85;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    color: #315b85;
+}
+
+.formulario, .lista {
+    background: white;
+    padding: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #00000012;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccd5df;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+
+button {
+    background: #315b85;
+    color: white;
+    border: none;
+    padding: 11px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #244464;
+}
+
+.tarefa {
+    border: 1px solid #dce3eb;
+    padding: 18px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.tarefa h3 {
+    margin-bottom: 10px;
+}
+
+.tarefa p {
+    margin-bottom: 8px;
+}
+
+.excluir {
+    background: #c94b4b;
+    margin-top: 8px;
+}
+
+.excluir:hover {
+    background: #a83232;
+}
+
+a {
+    display: inline-block;
+    margin-top: 25px;
+    color: #315b85;
+}
